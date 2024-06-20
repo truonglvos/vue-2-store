@@ -1,0 +1,33 @@
+@import "./base.css";
+@import "./styles/app.css";
+
+html,
+body {
+  overflow-x: scroll;
+}
+
+/* body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  overflow-x: scroll;
+} */
+
+.ladi-s-resize {
+  display: inline-block;
+}
+
+.ladi-section.ladi-resize.ladi-s-resize {
+  display: inline-block;
+}
+
+.free-dragging {
+  cursor: move;
+}
+
+.ng-hide {
+  display: none !important;
+}
+
+.ladi-section .ladi-container {
+  width: 960px;
+}

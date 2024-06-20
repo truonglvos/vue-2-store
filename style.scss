@@ -1,0 +1,31 @@
+:root {
+    --color-primary: #0c61f2;
+  }
+// @import './src/assets/styles/app.scss';
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  overflow-x: scroll;
+}
+.ladi-s-resize {
+  display: inline-block;
+}
+.ladi-section {
+  .ladi-resize.ladi-s-resize {
+    display: inline-block;
+  }
+}
+.free-dragging {
+  cursor: move;
+}
+.ng-hide {
+  display: none !important;
+}
+.ladi-section .ladi-container {
+  width: 960px;
+}

@@ -1,0 +1,2 @@
+export const CONTAINER_WIDTH_DESKTOP = 960;
+export const SECTION_HEIGHT_DEFAULT = 360;
